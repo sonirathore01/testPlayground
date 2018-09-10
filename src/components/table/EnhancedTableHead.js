@@ -13,6 +13,12 @@ class EnhancedTableHead extends React.Component {
     super();
     this.columnData = [
       {
+          id: 'Action', numeric: false, disablePadding: false, label: 'Action',
+      },
+      {
+          id: 'status', numeric: false, disablePadding: false, label: 'Status',
+      },
+      {
         id: 'productName', numeric: false, disablePadding: false, label: 'Product Name',
       },
       {
@@ -25,13 +31,10 @@ class EnhancedTableHead extends React.Component {
         id: 'purchaseDate', numeric: false, disablePadding: false, label: 'Purchase Date',
       },
       {
-        id: 'status', numeric: false, disablePadding: false, label: 'Status',
-      },
-      {
-        id: 'comments', numeric: false, disablePadding: false, label: 'Comments',
-      },
-      {
         id: 'images', numeric: false, disablePadding: false, label: 'Images',
+      },
+      {
+          id: 'Created_At', numeric: false, disablePadding: false, label: 'Created At',
       },
     ];
   }
